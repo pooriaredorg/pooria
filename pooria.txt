@@ -10,3 +10,5 @@ vless://edd5c4a8-7c7c-4f71-8c1b-c16fe446b1a1@www.speedtest.net:443?insecure=0&al
 
 vless://7d3e7814-87d0-4a00-9a7d-2a4585f6ec2d@www.speedtest.net:443?path=%2Fvl%2FJ2T68mbYka9hO5sHUhX%3Fed%3D2560&alpn=http%2F1.1%2Ch2%2Ch3&sni=pooria.pooriashop31.de5.net&insecure=0&fp=chrome&security=tls&allowInsecure=0&type=ws&host=pooria.pooriashop31.de5.net&encryption=none#%F0%9F%92%A6%20pooria.pooriashop31.de5.net%20shsj9331%40gmail.com
 
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:443?sni=pooriared.pooriaultrapanel1.de5.net&fp=chrome&insecure=0&path=%2Fvl%2FihqEe4LfRx6oawez5bSCquKSmpLT33os%3Fed%3D2560&type=ws&allowInsecure=0&alpn=http%2F1.1%2Ch2%2Ch3&host=pooriared.pooriaultrapanel1.de5.net&encryption=none&security=tls#%F0%9F%92%A6pooriaultra1%20pooriared.pooriaultrapanel1.de5.net
+
