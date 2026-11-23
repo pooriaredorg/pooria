@@ -1,14 +1,200 @@
-vless://aa378196-28c2-4772-9b48-f64237c46393@www.speedtest.net:443?allowInsecure=0&sni=pooria.pooriashop.de5.net&path=%2Fvl%2Fa042alehFwYz7akO%3Fed%3D2560&host=pooria.pooriashop.de5.net&type=ws&security=tls&encryption=none&fp=chrome&alpn=http%2F1.1%2Ch2%2Ch3&insecure=0#%F0%9F%92%A6%20pooriashop%20%E2%8C%9B%EF%B8%8Fpooria.pooriashop.de5.net
-
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:443?path=%2FeyJqdW5rIjoiSEJWNEJTeVNPT1A1WDgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&sni=pooria.pooriashop1.de5.net&alpn=http%2F1.1%2Ch2%2Ch3&insecure=0&fp=chrome&security=tls&allowInsecure=0&type=ws&host=pooria.pooriashop1.de5.net&encryption=none#%F0%9F%A5%B7%F0%9F%8F%BB%F0%9F%92%A6pooria.pooriashop1.de5.net
-
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:443?sni=pooria.pooriashop5.de5.net&type=ws&encryption=none&security=tls&alpn=http%2F1.1%2Ch2%2Ch3&fp=chrome&host=pooria.pooriashop5.de5.net&path=%2FeyJqdW5rIjoiSEJWNEJTeVNPT1A1WDgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&allowInsecure=0&insecure=0#%F0%9F%A5%B7%F0%9F%8F%BB%F0%9F%92%A6pooria.pooriashop5.de5.net
-
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:443?security=tls&sni=pooria.pooriashop6.de5.net&allowInsecure=0&type=ws&fp=chrome&host=pooria.pooriashop6.de5.net&alpn=http%2F1.1%2Ch2%2Ch3&encryption=none&insecure=0&path=%2FeyJqdW5rIjoiSEJWNEJTeVNPT1A1WDgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560#%F0%9F%A5%B7%F0%9F%8F%BB%F0%9F%92%A6pooria.pooriashop6.de5.net
-
-vless://edd5c4a8-7c7c-4f71-8c1b-c16fe446b1a1@www.speedtest.net:443?insecure=0&allowInsecure=0&security=tls&host=pooria.pooriashop30.de5.net&type=ws&fp=chrome&path=%2Fvl%2FYzITHRlnvbqRKAlG0ODSvUwlbrMo5K4H%3Fed%3D2560&alpn=http%2F1.1%2Ch2%2Ch3&encryption=none&sni=pooria.pooriashop30.de5.net#%F0%9F%92%A6%20pooria.pooriashop30.de5.net%20%20shsj9331%40gmail.com
-
-vless://7d3e7814-87d0-4a00-9a7d-2a4585f6ec2d@www.speedtest.net:443?path=%2Fvl%2FJ2T68mbYka9hO5sHUhX%3Fed%3D2560&alpn=http%2F1.1%2Ch2%2Ch3&sni=pooria.pooriashop31.de5.net&insecure=0&fp=chrome&security=tls&allowInsecure=0&type=ws&host=pooria.pooriashop31.de5.net&encryption=none#%F0%9F%92%A6%20pooria.pooriashop31.de5.net%20shsj9331%40gmail.com
-
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:443?sni=pooriared.pooriaultrapanel1.de5.net&fp=chrome&insecure=0&path=%2Fvl%2FihqEe4LfRx6oawez5bSCquKSmpLT33os%3Fed%3D2560&type=ws&allowInsecure=0&alpn=http%2F1.1%2Ch2%2Ch3&host=pooriared.pooriaultrapanel1.de5.net&encryption=none&security=tls#%F0%9F%92%A6pooriaultra1%20pooriared.pooriaultrapanel1.de5.net
-
+# profile-title: MASQUE-To-Hiddify-AUTO
+{
+  "_Hiddify_Singbox": [
+    "This config only works with the latest Hiddify client (newer than v5.5.5)",
+    "Use MASQUE with official endpoints or official clients only; third-party resources may cause privacy leaks or losses",
+    "This config is completely free! Beware of scams, and share it with your friends!",
+    "For technical research only. Delete the config after 24 hours; any other use is prohibited!",
+    "Website - https://darknessshade.github.io/Masque-Generator/",
+    "Telegram - https://t.me/ConfigWireguard"
+  ],
+  "log": {
+    "level": "info"
+  },
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.241 | 1701 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "tgju.org",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.241:1701",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.241:1701",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.201 | 4443 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "www.cloudflare.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.201:4443",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.201:4443",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.27 | 4500 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "repo.steampowered.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.27:4500",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.27:4500",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.211 | 8443 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "profile.activision.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.211:8443",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.211:8443",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.159 | 8443 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "store.steampowered.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.159:8443",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.159:8443",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.232 | 4443 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "dynu.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.232:4443",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.232:4443",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.62 | 4443 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "speed.cloudflare.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.62:4443",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.62:4443",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.49 | 4500 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "cdnjs.cloudflare.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.49:4500",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.49:4500",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.102 | 8443 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "cloudflare.dev",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.102:8443",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.102:8443",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    },
+    {
+      "type": "masque",
+      "tag": "AUTO | Official | 162.159.198.25 | 443 | MASQUE Nav",
+      "vhttp": "auto",
+      "server_name": "research.cloudflare.com",
+      "use_ipv6": false,
+      "device": {
+        "private_key": "MHcCAQEEIJpdi9xiqpb70PASEf5xOLvhIjZccFZXzNcPqeJRZIf4oAoGCCqGSM49AwEHoUQDQgAEC42IXMwPtpe0Kl84NqFOch5d9uVVP/8fPG18A5HIrPWaJEriJpQ3M/hN0SsCK1AD4zXyUbpBMPz76cYG4Ea4Eg==",
+        "endpoint_public_key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+        "ipv4": "172.16.0.2",
+        "ipv6": "2606:4700:110:87c9:9c9d:a1cb:18a7:29d9",
+        "endpoint_v4": "162.159.198.25:443",
+        "endpoint_v6": "",
+        "endpoint_h2_v4": "162.159.198.25:443",
+        "endpoint_h2_v6": "",
+        "id": "f5645197-511f-4cf2-90ac-cd4f066de35e"
+      }
+    }
+  ]
+}
