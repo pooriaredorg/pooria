@@ -1,4 +1,4 @@
-# profile-title: MASQUE-To-Hiddify-AUTO
+# profile-title: 🥷🏻POORIARED-To-Hiddify-AUTO
 {
   "_Hiddify_Singbox": [
     "This config only works with the latest Hiddify client (newer than v5.5.5)",
